@@ -1,0 +1,588 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link.activeLink {
+    color: #164863;
+    font-size: 22px;
+    font-weight: 800;
+    border-bottom: 2px solid #164863;
+}
+/* navbar */
+.navbar {
+   padding: 0;
+   background-color: rgba(217, 217, 217, 1);
+   color: white;
+}
+.navbar>.container {
+    justify-content: space-between;
+}
+.navbar-nav {
+    width: 100%;
+    
+}
+.navbar-nav li a {
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 1em .5em;
+}
+.navbar-nav li img {
+    padding-top: 5px;
+    margin-left: 15px;
+    padding: 1em .5em;
+}
+
+.buttons .btn {
+    color: rgba(255, 255, 255, 1);
+    width: 159px;
+    height: 40px;
+    border-radius: 21.5px;
+    background: #164863;
+}
+.buttons .login {
+    margin-right: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.buttons .login a{
+    color: #fff;
+}
+.buttons .register a{
+    color: #fff;
+}
+.buttons .login:hover {
+    background-color: #fff;
+}
+.buttons .login:hover a{
+    color: #164863;
+}
+@media (max-width: 700px) {
+    .navbar{
+        padding: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link.activeLink {
+        border-bottom: none;
+    }
+}
+/* landing page */
+.landingPage {
+    background: linear-gradient(107deg, #164863 0%, #BED8D9 100%);
+}
+.landingPage .container {
+    height: calc(100vh - 79px);
+}
+@media (max-width: 700px) {
+    .landingPage .container {
+        height: calc(100vh - 70px);
+    }
+}
+.landingPage h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 62px;
+    margin-bottom: 35px;
+}
+
+.landingPage p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.landingContent .btn {
+    width: 216px;
+    height: 56.195px;
+    border-radius: 37.756px;
+    background: #164863;
+    color: #FFF;
+    font-size: 24.585px;
+    font-weight: 600;
+}
+/* sec2  */
+.section2 .content p {
+    color: #164863;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 62px; 
+}
+.section2 .btn {
+    width: 216px;
+    height: 56.195px;
+    border-radius: 37.756px;
+    background: #164863;
+    color: #FFF;
+    font-size: 24.585px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+/* sec3  */
+.sec3 {
+    background-image: linear-gradient(107deg, #164863 0%, #BED8D9 100%);
+}
+.sec3 .container {
+    height: 600px;
+}
+.sec3 .content {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 62px;
+    margin-bottom: 20px;
+}
+/* sec4  */
+.sec4 .content p {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 62px;
+    margin-bottom: 20px;
+}
+.is-patient-page, .isnot-patient-page {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.is-patient-page img, .isnot-patient-page img {
+    width: 40%;
+}
+.is-patient-page .content, .isnot-patient-page .content {
+    flex: 0 0 60%;
+    text-align: right;
+}
+.is-patient-page  p, .isnot-patient-page  p {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.is-patient-page  h2, .isnot-patient-page h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-bottom: 20px;
+}
+.is-patient-page  p, .isnot-patient-page p, .is-patient-page  h2, .isnot-patient-page h2{
+    color: #164863;
+}
+.sec4 .btn , .is-patient-page .btn, .isnot-patient-page .btn{
+    width: 216px;
+    height: 56.195px;
+    border-radius: 37.756px;
+    background: #164863;
+    color: #FFF;
+    font-size: 24.585px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+/* footer  */
+.footer {
+    background-image: linear-gradient(107deg, #164863 0%, #BED8D9 100%);
+    padding: 40px 0;
+    text-align: center;
+    cursor: pointer;
+}
+.footer img {
+    width: 243px;
+    height: 160px;
+}
+.footer .coll-5 ul li,
+.footer .coll-4 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+.footer .coll-4 .mail {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.footer .coll-4 .mail i {
+    margin-right: 7px;
+}
+.footer .coll-4 .icons .fa-brands{
+    color: #FFF;
+    font-size: 30px;
+    margin-left: 20px;
+}
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1340px;
+    }
+}
+@media (min-width: 992px){
+    div.footer > div > div > div.coll-5.col-md-6.col-lg-4 {
+        width: 40%;
+    }
+    div.footer > div > div > div.coll-4.col-md-6.col-lg-4 {
+        width: 25%;
+    }
+}
+ /* login and register */
+ .loginPage, .RegisterPage {
+    background: linear-gradient(117deg, #164863 0%, #9BBEC8 100%), url('@/assets/images/login/bubles.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+
+  }
+.loginPage .container, .RegisterPage .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  .loginPage .image, .RegisterPage .image{
+    display: flex;
+    flex-direction: column;
+    width: 35%
+  }
+  .loginPage .image .logoo, .RegisterPage .image .logoo{
+    width: 100%;
+  }
+  .loginPage .image .ulogoo, .RegisterPage .image .ulogoo{
+   width: 100%;
+  }
+  .loginPage form, .RegisterPage form{
+    width: 50%;
+    height: 580px;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 50px 60px 70px 60px;
+    
+  }
+  @media (max-width:767px) {
+    .loginPage form, .RegisterPage form{
+        width: 55%;
+        padding: 34px 25px 97px 21px;
+        height: 450px;
+    }
+  }
+  @media (max-width:576px) {
+    .loginPage form, .RegisterPage form{
+        width: 94%;
+        height: 480px;
+    }
+  }
+  .loginPage form .title, .RegisterPage form .title{
+    color: #164863;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .loginPage form .btn, .RegisterPage form .btn{
+    width: 100%;
+    background-color: rgba(22, 72, 99, 0.60);
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .loginPage form .btn a, .RegisterPage form .btn a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .loginPage form p a, .RegisterPage form p a{
+    color: rgba(22, 72, 99, 1);
+    font-weight: bold;
+  }
+  form input::placeholder{
+    color: #ABABAB;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /* hover on all buttons */
+ .btn:hover {
+    box-shadow: 0 0 20px #0ebac5;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
+    transform: translateY(-2px);
+    transition: .3s;
+ }
+ /* Profile */
+ .navbar i {
+    font-size: 40px;
+    color: rgba(22, 72, 99, 1);   
+}
+
+.profile-banner .content h2 {
+    color: #164863;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.profile-banner .content p {
+    color: #164863;
+    font-size: 23px;
+    font-weight: 600;
+}
+@media (min-width:992px) {
+    .profile-banner .content h2 {
+        font-size: 32px;
+    }
+    .profile-banner .content p {
+        font-size: 27px;
+    }
+}
+.profile-info {
+    border-radius: 68px 67px 0px 0px;
+    background: #FFF;
+    box-shadow: 0px -2px 16.4px 0px rgba(0, 0, 0, 0.10);
+    margin-top: 35px;
+}
+.profile-info .progress {
+    width: 93%;
+    margin: 0 auto;
+    height: 10px;
+    border-radius: 12px;
+    background: #D9D9D9;
+}
+.profile-info .progress .prog {
+    width: 25%;
+    height: 10px;
+    border-radius: 12px;
+    background: #164863;
+
+}
+.profile-info .prec {
+    color: #164863;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: end;
+    padding-left: 4%;
+}
+@media (max-width:556px) {
+    /* .profile-info form  {
+        width: 81%;
+    } */
+    .profile-info .container div span {
+        font-size: 20px;
+    }
+    .profile-info .progress {
+        width: 75%;
+    }
+    .profile-info .prec {
+        font-size: 25px;
+        padding-left: 6%;
+    }
+}
+@media (min-width:557px) {
+    .profile-info .progress  {
+        width: 83%;
+    }
+}
+@media (min-width:992px) {
+    .profile-info .progress  {
+        width: 91%;
+    }
+}
+.profile-info .container {
+    height: 386px;
+}
+.profile-info .container div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+.profile-info .container .logout span{
+    color: #f55157;
+}
+
+.profile-info .container span {
+    color: #164863;
+    font-size: 28.703px;
+    font-weight: 600;
+    margin-right: 15px;
+
+}
+/* members */
+.setting {
+    width: 190px;
+    padding: 20px;
+    background-image: linear-gradient(116.82deg, #164863 0%, #9BBEC8 100%, #86A8B1 100%);
+    
+}
+.setting .item {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.setting .item img {
+    margin-left: 8px;
+}
+.newMember .title {
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.newMember .title img {
+    margin-left: 20px;
+}
+.newMember .btn {
+    background-color: rgba(22, 72, 99, 1);
+    color: white;
+    height: 45px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+
+}
+.newMember .box {
+    box-shadow: 0px 0px 13.899999618530273px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 24px;
+    padding: 30px;
+
+}
+.newMember .box .admins {
+    border-bottom: 1px solid  rgba(166, 187, 190, 1);
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+.newMember .box .left {
+    display: flex;
+    align-items: center;
+}
+.newMember .box .left span {
+    font-size:24px ;
+    font-weight: 600;
+}
+.newMember .box .left img {
+    margin-right: 20px;
+}
+.newMember .box .left img:hover {
+    cursor: pointer;
+}
+.newMember .box .right img {
+    margin-left: 20px;
+}
+.newMember .box .right {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(0, 0, 0 , 1);
+}
+@media (max-width:700px) {
+    .newMember .admins {
+    
+        flex-direction: column;
+        justify-content: center;
+    }
+    .newMember .left {
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .newMember .right {
+        margin: 0 auto;
+    }
+}
+@media (max-width:556px) {
+    .newMember .banner .title {
+        font-size: 20px;
+    }
+    .newMember .banner .btn {
+        font-size: 16px;
+    }
+    .newMember .left {
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .newMember .right span {
+        font-size: 18px;
+    }
+    .newMember .box .left span {
+        font-size:18px ;
+        font-weight: 600;
+    }
+}
+
+/* media  */
+
+@media (min-width: 556px) {
+    .landingPage h2,
+    .landingPage p {
+        color: #164863;
+    }
+    .landingPage h2 {
+        font-size: 40px;
+    }
+    .landingPage p {
+        font-size: 24px;
+    }
+    .sec3 .content {
+        color: #164863;
+    }
+   
+  }
+  @media (max-width: 992px) {
+    .sec4 img {
+        width: 400px;
+    }
+    .sec4 .content p {
+        font-size: 30px;
+    }
+  } 
+  @media (max-width: 556px) {
+    .sec4 img,
+    .sec3 img {
+        width: 300px;
+    }
+    .sec4 .content p,
+    .sec3 .content p {
+        font-size: 26px;
+    }
+    .sec4 .btn {
+        margin-top: 50px;
+    }
+    .footer-list{
+        flex-direction: column;
+        margin: 20px 0;
+        align-items: center;
+        padding: 0;
+    }
+  }
+  @media (min-width: 767px) {
+    .navbar{
+        padding: 0 8%;
+    }
+    .buttons.profile{
+        text-align: center;
+    }
+  }
+  .swal2-confirm{
+    border: 1.5px solid #164863 !important;
+    color: #164863 !important;
+  }
+  .newMember .right .one {
+    background-color:  rgba(154, 220, 255, 1);
+    
+}   
+.newMember .right .circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.newMember .box .right {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(0, 0, 0 , 1);
+    display: flex;
+    align-items: center;
+}
