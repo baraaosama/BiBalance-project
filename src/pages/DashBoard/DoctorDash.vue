@@ -1,8 +1,10 @@
 <template>
     <div class="content d-flex">
     <div class="setting ">
-        <div class="item"><img src="@/assets/images/list/people.png" alt=""><router-link :to="{name: 'members'}">الاعضاء</router-link></div>
+       <div class="item"><img src="@/assets/images/list/people.png" alt=""><router-link :to="{name: 'members'}">الاعضاء</router-link></div>
         <div class="item"><img src="@/assets/images/list/radio.png" alt=""><router-link :to="{name: 'dashboard-practice'}">التمارين</router-link></div>
+        <div class="item"><img src="@/assets/images/list/people.png" alt=""><router-link :to="{name: 'doctors-dash'}">الأطباء</router-link></div>
+        <div class="item"><img src="@/assets/images/list/people.png" alt=""><router-link :to="{name: 'subscription-dash'}">اشتراك الأطباء</router-link></div>
     </div>
     <div class="newMember w-100 my-3 ">
        <div class="container">

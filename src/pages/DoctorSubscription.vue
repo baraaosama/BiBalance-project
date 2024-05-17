@@ -96,7 +96,7 @@
             </form>
             <div v-if="pending" class="pending">
                 <h3 class="title">في انتظار الموافقه علي طلبك</h3>
-                <img src="@/assets/images/doc/boo waiting.png" alt="">
+                <img src="@/assets/images/doc/boowaiting.png" alt="">
             </div>
             <div class="row" v-if="activeStep == 4 && pending == false">
        
@@ -142,7 +142,7 @@
                             <h2>طريقه الدفع</h2>
                         </div>
                         <div class="col-4 d-flex align-items-center">
-                            <img src="@/assets/images/doc/Visa_Inc._logo 1.png" alt="" @click="choosePaymentWay">
+                            <img src="@/assets/images/doc/visa.png" alt="" @click="choosePaymentWay">
                         </div>
                         <div class="col-4">
                             <img src="@/assets/images/doc/instapay.png" alt="" @click="choosePaymentWay">

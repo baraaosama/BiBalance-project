@@ -1,7 +1,7 @@
 <template>
     <div class="landingPage">
     <div class="container text-center text-lg-end d-flex  flex-row-reverse align-items-center">
-     <img src="@/assets/images/doc/doctor boo.png" alt="logo" class="d-none d-lg-block animate__animated animate__backInLeft">
+     <img src="@/assets/images/doc/doctorboo.png" alt="logo" class="d-none d-lg-block animate__animated animate__backInLeft">
      <div class="landingContent animate__animated animate__backInRight">
          <h2>شارك معلوماتك الطبيه لتساعدنا</h2>
          <p>يمكنك الاشتراك لتنشر كل ما يساعدنا في التطوير والتحسين</p>
@@ -51,9 +51,9 @@
         </form>
         <div class="contact_us">
             <h2>تواصل معنا</h2>
-            <div class="facebook"><img src="@/assets/images/doc/facebook icon.png" alt="">Bibalancecontact@gmail.com</div>
-            <div class="whatsapp"><img src="@/assets/images/doc/whatsapp icon.png" alt="">0101231236</div>
-            <div class="email"><img src="@/assets/images/doc/email Icon.png" alt="">Bibalancecontact@gmail.com</div>
+            <div class="facebook"><img src="@/assets/images/doc/facebookicon.png" alt="">Bibalancecontact@gmail.com</div>
+            <div class="whatsapp"><img src="@/assets/images/doc/whatsappicon.png" alt="">0101231236</div>
+            <div class="email"><img src="@/assets/images/doc/emailIcon.png" alt="">Bibalancecontact@gmail.com</div>
         </div>
     </div>
   </div>
