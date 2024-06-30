@@ -27,6 +27,10 @@
                         <router-link :to="{ name: 'doctor' }" class="nav-link" exact
                             :class="{ activeLink: $route.name === 'doctor' }" aria-current="page">الاطباء</router-link>
                     </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" 
+                            >التوصيه</a>
+                    </li>
                     <div class="buttons me-auto d-flex align-items-center profile" v-if="token">
                         <router-link :to="{name: 'profile'}"><img src="@/assets/images/user.png" alt=""></router-link>
                     </div>

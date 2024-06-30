@@ -9,12 +9,16 @@
 
 <script setup>
 import { onMounted } from 'vue';
-
+//token 
+const token = localStorage.getItem('token')?localStorage.getItem('token'):null;
 const sendMessage = (object, method, param) => {
   window.gameInstance.SendMessage(object, method, param);
 };
 
 onMounted(() => {
+  if(!token){
+    window.location.href = '/login';
+    }
   const file = 'BIB';
   const script = document.createElement('script');
   script.onload = () => {

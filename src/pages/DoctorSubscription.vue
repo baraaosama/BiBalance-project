@@ -189,7 +189,7 @@ export default {
             floor: null,
             building_name: null,
             mobile_number2: null,
-            pending: false,
+            pending: true,
             doctorStatus: null,
             planID: null,
             paymentMode: false,
